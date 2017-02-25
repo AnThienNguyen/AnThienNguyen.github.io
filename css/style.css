@@ -1,0 +1,155 @@
+/* Table of Contents
+––––––––––––––––––––––––––––––––––––––––––––––
+- General Content
+- Typography
+- Header & Navigation
+- Images & Media
+- Footer
+- Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* General Content
+–––––––––––––––––––––––––––––––––––––––––––––– */
+.main{padding-top:3%;}
+.row{padding: 3% 0;}
+.green{background-color:#7accc8;}
+.grey{background-color:#3c4854;}
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––– */
+body{
+	font-family: 'Raleway',sans-serif;
+	font-size: 1.5em;
+	color: #fff;
+}
+h1{
+	font-family: 'Raleway',sans-serif;
+	font-size: 4.5em;
+	color: #fff;
+}
+h2{
+	font-family: 'Raleway',sans-serif;
+	font-size: 3em;
+	margin: 0.67em;
+}
+
+p{color: #fff;}
+h2.bio{color:#3f7f7c;}
+p.intro{
+	text-align: center;
+	font-size: 1.65em;
+	font-weight: lighter;
+	padding-bottom: 15px;
+}
+p.about{
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: lighter;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+h1.name{
+	padding-top: 40px;
+	text-align: center;
+	color:#fff;
+}
+
+/* Header & Navigation
+–––––––––––––––––––––––––––––––––––––––––––––– */
+header.main_nav{
+	padding: 1% 0;
+	display: block;
+	font-size: 1.25em;
+}
+
+.logo{
+	margin: 5% auto;
+	text-align: center;
+}
+.logo a{
+	font-size: 3em;
+	color: #fff;
+	text-decoration: none;
+	border: 3px solid #fff;
+	text-transform: uppercase;
+	padding: 2px 10px 0 10px;
+	margin: 0;
+}
+.logo a:hover{
+	background-color: #fff;
+	color: #7accc8;
+}
+.link{
+	margin:5% auto;
+	text-align: center;
+}
+.link a{
+	color: #fff;
+	text-decoration: none;
+	padding: 2px 10px 0 10px;
+	margin: 0;
+}
+.link a:hover{
+	background-color: #fff;
+	color: #7accc8;
+}
+.hlink a{
+	color: #fff;
+	text-decoration: none;
+	margin: 0;
+}
+/* Images & Media
+–––––––––––––––––––––––––––––––––––––––––––––– */
+img{max-width: 100%;}
+img.avatar{
+	border-radius: 50%;
+	display: block;
+    margin: auto;
+    width: 25%;
+}
+
+img.link
+{
+	border: 3px solid #ccc;
+}
+
+img.link:hover{opacity:0.70;}
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––– */
+ul.social{
+	display: block;
+	margin: 5% 0;
+	list-style-type: none;
+	text-align: center;
+}
+ul.social li{
+	font-size: 3em;
+	display: inline;
+	padding: 0 2%;
+}
+ul.social li a{
+	color: #666;
+}
+ul.social li.linkedin a:hover{color: rgb(0, 123, 182);}
+ul.social li.facebook a:hover{color: rgb(59, 89, 152);}
+ul.social li.github a:hover{color: rgb(50, 50, 50);}
+
+
+p.copyright{
+	text-align: center;
+	color: #666;
+	font-size: 1em;
+}
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––– */
+/* Larger than mobile */
+@media (max-width: 479px) {
+	.logo a{font-size: 2em;}
+	.main{padding-top:15%;}
+	.portfolio img{margin-bottom: 10%;}
+	img.avatar{margin-top: 15%;}
+	h2.bio{font-size: 2.5em;}
+	p.bio{font-size: 1.25em;color: #3f7f7c;}
+	ul.social li a{font-size: .75em;}
+}
