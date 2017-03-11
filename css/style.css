@@ -32,21 +32,26 @@ h2{
 	font-size: 3em;
 	margin: 0.67em;
 }
-
-p{color: #fff;}
-h2.bio{color:#3f7f7c;}
-p.intro{
-	text-align: center;
-	font-size: 1.65em;
+h3{
+	font-size: 1.9em;
+}
+p{
+	color: #fff;
 	font-weight: lighter;
-	padding-bottom: 15px;
+}
+h2.bio{color:#3f7f7c;}
+h3.intro{
+	text-align: center;
 }
 p.about{
 	text-align: center;
 	font-size: 1.5em;
-	font-weight: lighter;
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+p.date{
+	font-size:1.25em;
+	line-height: 1.35em;
 }
 h1.name{
 	padding-top: 40px;
@@ -116,6 +121,11 @@ img.link
 img.link:hover{opacity:0.70;}
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––– */
+ul.ex li{
+	font-size: 1.3em;
+	font-weight: lighter;
+	line-height: 1.35em;
+}
 ul.social{
 	display: block;
 	margin: 5% 0;
