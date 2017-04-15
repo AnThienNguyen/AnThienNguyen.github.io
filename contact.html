@@ -30,6 +30,17 @@
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<link rel="icon" type="image/png" href="images/favicon.png">
 
+<!-- JavaScript
+	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript">var submitted=false;</script>
+	<script type="text/javascript">
+	$('#gform').on('submit', function(e) {
+		$('#gform *').fadeOut(2000);
+		$('#gform').prepend('Your submission has been processed...');
+	});
+	</script>
+
 </head>
 <body>
 	<!-- HEADER -->
@@ -72,12 +83,22 @@
 
 	<div class="row grey">
 		<div class="container">
-			<div class="four columns">
-				
+			<div class="five columns">
+				<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSd3-vH-91R5UHyoUr6Two6COBZlUVCDIh97QOWSsqaTrSnRZw/viewform?usp=pp_url&entry.325573602=An+Nguyen&entry.1895260436=AnThienNguyen0@gmail.com&entry.1318027263=Hello" target="hidden_iframe" onsubmit="submitted=true;">
+					<input type="text" name="entry.325573602" id="entry.325573602" placeholder="Name">
+					<input type="text" name="entry.1895260436" id="entry.1895260436" placeholder="Email"><br>
+					<textarea type="text" name="entry.1318027263" id="entry.1318027263" placeholder="Enter your message" rows="5" cols="45"></textarea><br>
+					<input class="submit" type="submit" value="Submit">
+				</form>
+
+				<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 			</div>
-			<div class="eight columns">
-				<h2></h2>
-				<p> </p>
+			<div class="seven columns">
+				<ul class="contact">
+					<li class="linkedin"><p>Linked i</p><a href="https://www.linkedin.com/in/nguyenthienan/"><i class="fa fa-linkedin-square fa-lg"></i></a></li><br>
+					<li class="facebook"><a href="https://bitbucket.org/atn13/"><i class="fa fa-bitbucket fa-lg"></i></a></li><br>
+					<li class="github"><a href="#"><i class="fa fa-github fa-lg"></i></a></li>
+				</ul>
 			</div>
 		</div>
 	</div>

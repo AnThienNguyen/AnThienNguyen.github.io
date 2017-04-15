@@ -20,7 +20,7 @@
 body{
 	font-family: 'Raleway',sans-serif;
 	font-size: 1.5em;
-	color: #fff;
+	color: #000;
 }
 h1{
 	font-family: 'Raleway',sans-serif;
@@ -31,9 +31,11 @@ h2{
 	font-family: 'Raleway',sans-serif;
 	font-size: 3em;
 	margin-top: 0.15em;
+	color: #fff;
 }
 h3{
 	font-size: 1.9em;
+	color: #fff;
 }
 p{
 	color: #fff;
@@ -42,16 +44,22 @@ p{
 h2.bio{color:#3f7f7c;}
 h3.intro{
 	text-align: center;
+	color: #fff;
 }
 p.about{
 	text-align: center;
 	font-size: 1.5em;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	color: #fff;
 }
 p.date{
 	font-size:1.25em;
 	line-height: 1.35em;
+	color: #fff;
+}
+p.form{
+	color: #000;
 }
 h1.name{
 	padding-top: 40px;
@@ -103,6 +111,7 @@ header.main_nav{
 	text-decoration: none;
 	margin: 0;
 }
+
 /* Images & Media
 –––––––––––––––––––––––––––––––––––––––––––––– */
 img{max-width: 100%;}
@@ -119,12 +128,19 @@ img.link
 }
 
 img.link:hover{opacity:0.70;}
+
+form
+{
+
+}
+
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––– */
 ul.ex li{
 	font-size: 1.3em;
 	font-weight: lighter;
 	line-height: 1.35em;
+	color: #fff;
 }
 ul.social{
 	display: block;
@@ -140,10 +156,24 @@ ul.social li{
 ul.social li a{
 	color: #666;
 }
+
 ul.social li.linkedin a:hover{color: rgb(0, 123, 182);}
 ul.social li.facebook a:hover{color: rgb(59, 89, 152);}
 ul.social li.github a:hover{color: rgb(50, 50, 50);}
 
+ul.contact{
+	display: block;
+	list-style-type: none;
+	text-align: center;
+}
+ul.contact li{
+	font-size: 3em;
+	display: inline;
+	padding: 0 2%;
+}
+ul.contact li a{
+	color: #fff;
+}
 
 p.copyright{
 	text-align: center;
