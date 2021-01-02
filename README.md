@@ -1,4 +1,5 @@
 # Portfolio
 
-My personal portfolio showcasing some of my web and android projects. Go to https://anthiennguyen.github.io/ for the live demo.
+My personal portfolio showcasing some of the projects I have done.
 
+Checkout the [Live Demo](https://anthiennguyen.github.io/)
