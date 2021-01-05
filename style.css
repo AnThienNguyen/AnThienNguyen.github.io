@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	margin: 0px;
 	padding: 0px;
@@ -244,7 +248,7 @@ nav ul li a:hover {
 
 #contact h3 {
 	font-size: 2.5rem;
-	margin: 20px;
+	margin: 10px;
 }
 
 .contact-input {
@@ -280,7 +284,6 @@ nav ul li a:hover {
 }
 
 .contact-links {
-	margin: 15px;
 	font-size: 3em;
 	display: flex;
 	flex-direction: row;
@@ -292,9 +295,9 @@ nav ul li a:hover {
 }
 
 .contact-links a:hover {
-	font-size: 1.1em;
+	transform: translateY(-10px);
 	color: #44b1fa;
-	transition: ease 0.2s;
+	transition: ease 0.3s;
 }
 
 footer {
