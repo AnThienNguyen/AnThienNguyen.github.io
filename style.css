@@ -287,36 +287,10 @@ nav .menu-btn,
 	margin: 10px;
 }
 
-.contact-input {
-	width: 400px;
-	height: 50px;
-	background-color: white;
-	display: flex;
-	justify-content: center;
-	border-radius: 50px;
-	box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.15);
-}
-
-.contact-input input {
-	width: 100%;
-	background-color: transparent;
-	border: none;
-	outline: none;
+#contact p {
+	padding: 0 30px;
 	text-align: center;
-	color: #242425;
-}
-
-.contact-input a {
-	width: 200px;
-	height: 35px;
-	background: linear-gradient(#44ccff, #0088ff);
-	color: white;
-	display: flex;
-	font-size: 0.9rem;
-	justify-content: center;
-	align-items: center;
-	margin: auto 10px;
-	border-radius: 20px;
+	display: block;
 }
 
 .contact-links {
@@ -450,7 +424,24 @@ footer p {
 	}
 }
 
+@media (max-width: 720px) {
+}
+
 @media (max-width: 580px) {
+	.content {
+		flex-direction: column;
+	}
+	.model {
+		width: 80%;
+	}
+	.main-text {
+		display: flex;
+		flex-direction: column;
+		width: 70%;
+		align-items: center;
+		margin: 0;
+	}
+
 	#project {
 		margin-left: auto;
 		margin-right: auto;
@@ -466,5 +457,10 @@ footer p {
 
 	.project-box {
 		height: auto;
+	}
+}
+@media (max-width: 400px) {
+	.main-text h1 {
+		font-size: 2.5rem;
 	}
 }
