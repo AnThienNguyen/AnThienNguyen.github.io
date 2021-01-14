@@ -282,11 +282,6 @@ nav .menu-btn,
 	margin: 40px 0px;
 }
 
-#contact h3 {
-	font-size: 2.5rem;
-	margin: 10px;
-}
-
 #contact p {
 	padding: 0 30px;
 	text-align: center;
@@ -432,19 +427,18 @@ footer p {
 		flex-direction: column;
 	}
 	.model {
-		width: 80%;
+		width: 90%;
 	}
 	.main-text {
 		display: flex;
 		flex-direction: column;
-		width: 70%;
+		width: 90%;
 		align-items: center;
 		margin: 0;
 	}
 
 	#project {
-		margin-left: auto;
-		margin-right: auto;
+		margin-left: 5%;
 		width: 85%;
 	}
 
@@ -452,7 +446,7 @@ footer p {
 		flex-direction: column;
 		width: 100%;
 		z-index: 1;
-		margin-left: auto;
+		margin: 0;
 	}
 
 	.project-box {
@@ -461,6 +455,14 @@ footer p {
 }
 @media (max-width: 400px) {
 	.main-text h1 {
+		font-size: 2.5rem;
+	}
+	.portfolio-btn {
+		width: 150px;
+		height: 35px;
+	}
+	.project-heading h3,
+	#contact h3 {
 		font-size: 2.5rem;
 	}
 }
